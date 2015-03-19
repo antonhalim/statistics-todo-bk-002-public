@@ -14,11 +14,11 @@ describe "Statistics" do
     end
 
     it "finds the mean for a series of thirty-nine numbers" do
-      expect(advanced.mean).to eq(446)
+      expect(advanced.mean).to eq(486.54)
     end
 
     it "rounds to the nearest hundredth place" do
-      expect(expert.mean).to eq(471.91)
+      expect(expert.mean).to eq(2336.69)
     end
   end
 
@@ -32,12 +32,12 @@ describe "Statistics" do
     end
 
     it "finds the median for a series of thirty-nine numbers" do
-      expect(advanced.median).to eq(486.54)
+      expect(advanced.median).to eq(446)
     end
 
     it "finds the median for a series of fifty-one numbers" do
-      expect(expert.median).to eq(2336.69)
-    end   
+      expect(expert.median).to eq(471.91)
+    end
   end
 
   describe "#mode" do
